@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#000000;
+    /* background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; */
+}
+#container{
+    border: 5px solid rgb(0, 255, 21);
+    margin: 60px auto;
+    width: 700px;
+    display: block;
+    /* background-color: rgb(167, 197, 160); */
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 255, 21);
+}
+.top{
+    /* border-bottom: 2px solid #d8b3b3; */
+    border-bottom: 2px solid rgb(0, 255, 21);
+    /* background-color: rgb(228, 203, 152); */
+    border-radius: 30px 30px 0px 0px ;
+    height: 107px;
+}
+.coupon{
+    display: inline;
+    position: relative;
+    top: 35px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 255, 21);
+}
+
+.video{
+    display: block;
+    position: relative;
+    /* top: 0px; */
+    padding: 5px 0px;
+    /* left: 0; */
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 21);
+    color:black;
+    /* height: 200px; */
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    position: relative;
+    top: 2px;
+    left: 233px;
+    float: left;
+}
+.form{
+    border: 2px solid rgb(0, 255, 21);
+    height: 200px;
+    width: 370px;
+    margin: 60px auto ;
+    background-color: black;
+    border-top: 4px solid rgb(0, 255, 21);
+    border-radius: 15px;
+}
+.text{
+    width: 190px;
+    position: relative;
+    top: 45px;
+    left: 90px;
+    border-radius: 5px;
+    border-color: #f3eded;
+    color: black;
+}
+input{
+    text-align: center;
+    /* position: relative;
+    top: 60px;
+    left: 100px; */
+    height: 27px;
+    background-color: rgb(0, 255, 21);
+
+}
+
+
+h2{ display: block;
+    position: relative;
+    top: 20px;
+    left: 0;
+    color: rgb(0, 255, 21);
+    text-align: center;
+    /* border: 2px solid rgb(101, 223, 152); */
+}
+
+#sbmt{
+    background-color: rgb(0, 255, 21);
+    border: none;
+    color: black;
+    font-weight:bold;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: cursive;
+    margin: 2px auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    position: relative;
+    top: 65px;
+}
+a{ text-decoration: none;
+   color: black;
+   font-size: 18px;
+} 
+#sbmt:hover { 
+    /* background-color: teal; */
+    box-shadow: 0px 0px 8px 2px rgb(0, 255, 21);
+}

@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+#container{
+    /* display: flex; */
+    display: block;
+    border: 5px solid rgb(0, 255, 21);
+    margin: 45px auto;
+    width: 700px;
+    height: 530px;
+    background-color:black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 255, 21);
+}
+.step4{
+    border: 2px solid rgb(0, 238, 255);
+    text-align: center;
+    font-size: 24px;
+    color: rgb(0, 255, 21);
+    font-weight: bold;
+    margin: 0px auto;
+    position: relative;
+    top: 9px;
+    width: 300px;
+    border-radius: 15px;
+}
+.detail{
+    display: block;
+    position: relative;
+    padding: 5px 0px;
+    /* top: 17px; */
+    /* left: 0; */
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(0, 255, 21);
+    color: black;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
+.top{
+    border-bottom: 2px solid rgb(0, 255, 21);
+    background-color: black;
+    border-radius: 30px 30px 0px 0px;
+    height: 107px;
+}
+.coupon{
+    display: inline;
+    position: relative;
+    top: 35px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(0, 255, 21);
+    /* text-shadow: 0px 0px 10px  red; */
+}
+
+.logo{                  
+    width: 100px;
+    position: relative;
+    top: 2px;
+    left: 233px;
+    float: left;
+}
+
+.form{
+    border: 2px solid rgb(0, 255, 21);
+    height: 300px;
+    width: 550px;
+    margin: 20px auto ;
+    background-color: black;
+    border-top: 4px solid rgb(0, 255, 21);
+    border-radius: 15px;
+}
+.note{
+    /* margin-top: 7px; */
+    padding: 3px 22px;
+    border: 2px solid black;
+    /* font-size: 20px; */
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 255, 21);
+    border-radius: 10px;
+} 
+.color{
+    color: red;
+}
+.optvry{
+    padding: 7px 12px;
+    font-weight: bold;
+    /* border: 2px solid rgb(85, 194, 94); */
+    color: red;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    left: 0px;
+}
+
+.x{ text-align: center;
+    position: relative;
+    display: block;
+    /* border: 2px solid blueviolet; */
+    top: 20px;
+    right: 29px;
+    font-size: 23px;
+}
+
+.xx{display: block;
+    position: relative;
+    top: 56px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 23px;
+    /* border: 2px solid blue; */
+}
+
+label{
+    margin-left: 58px;
+    color:rgb(0, 255, 21) ; 
+    /* font-size: 23px; */
+}
+
+
+.number{
+    margin-left: 10px;
+}
+
+input[type=text]{
+    padding: 7px 0px;
+    width: 125 px;
+    margin-left: 15px;
+    border-radius: 5px;
+    text-align: center;
+    border-color: rgb(243, 237, 237);
+    background-color: rgb(0, 255, 21);
+}
+
+#mnumber{padding: 7px 32px; 
+    padding: 7px 32px;
+    margin-left: 15px;
+    border-radius: 5px;     
+
+}
+
+.btn{
+    background-color: rgb(0, 255, 21);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    /* display: inline; */
+    position: relative;
+    display: block;
+    /* border: 2px solid red; */
+    left: 0px;
+    top: 70px;
+}a{text-decoration: none;
+    color: black;
+    border: none;
+    font-family: cursive;
+    font-weight: bold;
+}
+  .btn:hover {
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: teal; */
+    box-shadow: 0px 0px 15px 1px rgb(0, 255, 21);
+}

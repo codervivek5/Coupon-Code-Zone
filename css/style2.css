@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:black;
+}
+#container{
+    /* display: flex; */
+    display: block;
+    border: 5px solid rgb(0, 255, 21);
+    margin: 60px auto;
+    width: 700px;
+    background-color:black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 255, 21);
+}
+.detail{
+    display: block;
+    position: relative;
+    background-color: rgb(0, 255, 21);
+    padding: 5px 0px;
+    /* top: 17px; */
+    /* left: 0; */
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+
+.top{
+    border-bottom: 2px solid rgb(0, 255, 21);
+    background-color: black;
+    border-radius: 30px 30px 0px 0px;
+    height: 107px
+}
+.coupon{
+    display: inline;
+    position: relative;
+    top: 35px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 255, 21);
+}
+
+.logo{                  
+    width: 100px;
+    position: relative;
+    top: 2px;
+    left: 233px;
+    float: left;
+}
+
+.form{
+    border: 2px solid rgb(0, 255, 21);
+    border-top: 4px solid rgb(0, 255, 21);
+    height: 262px;
+    width: 450px;
+    margin: 45px auto ;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.x{ display: block;
+    margin: 25px auto;
+    font-size: 23px;
+    text-align: left;
+
+}
+
+.xx{ display: block;
+    margin: 25px auto;
+    font-size: 23px;
+}
+
+.xxx{display: block;
+    margin: 25px auto;
+    font-size: 23px;
+}
+
+label{
+    margin-left: 58px;
+    color: rgb(0, 255, 21);
+}
+
+.number{
+    margin-left: 10px;
+}
+
+input[type=text]{
+    padding: 7px 32px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-color: #f3eded;
+    background-color: rgb(0, 255, 21);
+}
+
+#mnumber{padding: 7px 32px; 
+    padding: 7px 32px;
+    margin-left: 15px;
+    border-radius: 5px;  
+    border-color: #f3eded   
+
+}
+
+.btn{
+    background-color: rgb(0, 255, 21); /* Green */
+    border: none;
+    color: black;
+    padding: 8px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0px auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    position: relative;
+}
+  
+  a{text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    border: none;
+}
+  .btn:hover {
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+    /* background-color: teal; */
+    box-shadow: 0px 0px 15px 1px rgb(0, 255, 21);
+}
+    
